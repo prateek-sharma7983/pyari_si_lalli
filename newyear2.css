@@ -1,0 +1,153 @@
+*{
+  margin:0;
+  padding:0;
+  box-sizing:border-box;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+body{
+  background:#ffc0cb;
+  color:#b30059;
+  text-align:center;
+}
+
+.page{
+  min-height:100vh;
+  display:flex;
+  flex-direction:column;
+  align-items:center;
+  justify-content:center;
+  padding:20px;
+}
+
+.hidden{
+  display:none;
+}
+
+button{
+  padding:12px 26px;
+  margin:10px;
+  border:none;
+  border-radius:30px;
+  background:#ff4d88;
+  color:#fff;
+  font-size:16px;
+  cursor:pointer;
+}
+
+button:hover{
+  background:#e6005c;
+}
+
+.title{
+  margin-bottom:15px;
+}
+
+.video-box video{
+  /* width:260px;
+  border-radius:20px;
+  box-shadow:0 0 20px rgba(0,0,0,0.3); */
+
+  background-image:url(rose.jpg) ;
+  background-size: cover;
+  border-radius: 10px;
+}
+
+
+
+
+.photo-grid{
+  margin-top:20px;
+  display:flex;
+  gap:12px;
+  justify-content:center;
+  flex-wrap:wrap;
+}
+
+.photo-grid img{
+  width:80px;
+  height:80px;
+  border-radius:15px;
+  object-fit:cover;
+  box-shadow:0 5px 15px rgba(0,0,0,0.2);
+}
+
+
+
+/* .photo-grid{
+  margin-top:20px;
+  display:grid;
+  grid-template-columns:repeat(5,1fr);
+  gap:10px;
+  max-width:500px;
+}
+
+.photo-grid img{
+  width:100%;
+  max-width:90px;
+  border-radius:15px;
+} */
+
+.love-text{
+  margin:25px 10px;
+  font-size:18px;
+  font-weight:600;
+}
+
+.question{
+  margin-top:15px;
+}
+
+#thanks{
+  margin-top:25px;
+  font-size:22px;
+}
+
+/* Mobile */
+@media(max-width:600px){
+  .video-box video{
+    width:200px;
+  }
+  /* .photo-grid img{
+    max-width:70px;
+  } */
+
+
+  @media(max-width:600px){
+  .photo-grid img{
+    width:65px;
+    height:65px;
+  }
+}
+
+
+
+  .love-text{
+    font-size:16px;
+  }
+}
+
+
+
+
+
+
+
+/* .rose-box{
+  width:160px;
+  height:160px;
+  background:#ffd6e0;
+  border-radius:25px;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  margin:20px auto;
+  box-shadow:0 10px 25px rgba(0,0,0,0.15);
+}
+
+.rose-box img{
+  width:90px;
+  height:90px;
+  object-fit:contain;
+} */
+
